@@ -1,0 +1,4 @@
+<?php
+// TTN should have a webhook integration like this 
+// https://yourdomain/save.php?id=9r05y4863g2j8e754252934
+define("APIKEY", "9r05y4863g2j8e754252934");
