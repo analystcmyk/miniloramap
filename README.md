@@ -5,29 +5,29 @@ Create a simple map that shows RSSI between a node and a gateway.
 
 ## Why? We have TTNmapper!
 
-	I highly recommend TTNmapper. ( ttnmapper.org )
-	It is fast, feature-rich, free to use, well maintained and global. 
+I highly recommend TTNmapper. ( ttnmapper.org )
+It is fast, feature-rich, free to use, well maintained and global. 
 
-	For temporary experiments that generate excessive or erroneous data 
-	you would like not to mess up the TTNmapper map 
-	and systems.eg when you have multiple antenna 
-	setups that you would like to compare and archive for later analysis. 
+For temporary experiments that generate excessive or erroneous data 
+you would like not to mess up the TTNmapper map 
+and systems.eg when you have multiple antenna 
+setups that you would like to compare and archive for later analysis. 
 	
-	For this situations you might prefer a simple RSSI representation.
+For this situations you might prefer a simple RSSI representation.
 
-	Mini LoRaMapper is very simple, e.g. it does not look at HDOP, and even lowers the GPS precision.
+Mini LoRaMapper is very simple, e.g. it does not look at HDOP, and even lowers the GPS precision.
 
-	Mini LoRaMapper runs perfectly fine next to TTNmapper.
+Mini LoRaMapper runs perfectly fine next to TTNmapper.
 
-	For real coverage maps please contribute to TTNmapper by 
-	- creating an integration with TTNmapper
-	- contributing to the project https://docs.ttnmapper.org/FAQ.html
+For real coverage maps please contribute to TTNmapper by 
+- creating an integration with TTNmapper
+- contributing to the project https://docs.ttnmapper.org/FAQ.html
 
 ## Warning
 	
 - This code has not been reviewed for security issues.
 - This code is PoC level, not for production
-- There is no authentication mechanism 
+- There is no authentication mechanism, so you would definitely want to run this on a webserver with TLS
 
 ## Prerequisites:
 
@@ -56,4 +56,9 @@ Create a simple map that shows RSSI between a node and a gateway.
 - https://github.com/maydemirx/leaflet-tag-filter-button
 - https://jquery.com/
 - https://www.papaparse.com/
+
+## Improvements / todo
+
+- check using headers/post in order to not leak the key via serverlogs
+
 
