@@ -60,5 +60,7 @@ For real coverage maps please contribute to TTNmapper by
 ## Improvements / todo
 
 - check using headers/post in order to not leak the key via serverlogs
+- adjust RSSI scale to reality
+
 
 
