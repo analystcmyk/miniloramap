@@ -9,7 +9,7 @@ Create a simple map that shows RSSI between a node and a gateway.
 	It is fast, feature-rich, free to use, well maintained and global. 
 
 	For temporary experiments that generate excessive or erroneous data 
-	you would like not to mess up TTNmapper map 
+	you would like not to mess up the TTNmapper map 
 	and systems.eg when you have multiple antenna 
 	setups that you would like to compare and archive for later analysis. 
 	
@@ -27,7 +27,7 @@ Create a simple map that shows RSSI between a node and a gateway.
 	
 - This code has not been reviewed for security issues.
 - This code is PoC level, not for production
-- There is no authentication mechanism, this assumes 
+- There is no authentication mechanism 
 
 ## Prerequisites:
 
