@@ -3,6 +3,8 @@ Self hosted minimal mapper for LoRaWAN using TTN ( thethingsnetwork.org )
 
 Create a simple map that shows RSSI between a node and one or more gateways.
 
+![screenshot](firefox_HAoCQFR6yv.png)
+
 ## Why? We have TTNmapper!
 
 I highly recommend TTNmapper. ( ttnmapper.org )
